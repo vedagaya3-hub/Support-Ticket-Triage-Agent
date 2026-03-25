@@ -1,0 +1,5 @@
+langchain   (base framework)
+langgraph   (your agent/workflow)
+langsmith   (evaluation + tracing)
+openai      (LLM provider)
+python-dotenv (load .env (API keys))
