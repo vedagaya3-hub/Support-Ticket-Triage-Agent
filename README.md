@@ -1,15 +1,11 @@
 # Support-Ticket-Triage-Agent
 Support Ticket Triage Agent — LangGraph + LangSmith Evaluation
-
-# Support Ticket Triage Agent
-### LangGraph + LangSmith Evaluation
-**Gayathri Jayanthi — March 2026**
+Gayathri Jayanthi — March 2026
 
 ---
 
 ## What I Built
-A LangGraph-based agent that triages customer support tickets
-and CloudWatch auto-generated alerts — evaluated with LangSmith.
+A LangGraph-based agent that triages customer support tickets and CloudWatch auto-generated alerts — evaluated with LangSmith.
 
 ## Agent Design — 6 Nodes
 - Node 0: Detect source (human vs CloudWatch auto-generated)
