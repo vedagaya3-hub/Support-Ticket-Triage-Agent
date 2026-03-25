@@ -6,6 +6,19 @@ Support Ticket Triage Agent — LangGraph + LangSmith Evaluation
 ## What I Built
 A LangGraph-based agent that triages customer support tickets and CloudWatch auto-generated alerts — evaluated with LangSmith.
 
+## What it does
+
+- Detects ticket source (human vs CloudWatch alert)
+- Extracts structured ticket fields (summary, issue type, sentiment)
+- Classifies urgency (Critical / High / Medium / Low)
+- Routes tickets into:
+  - Security handling (PII detected)
+  - Clarification (vague or low-confidence tickets)
+  - Standard response
+- Handles edge cases (PII exposure, vague tickets, angry customers)
+- Generates a first-response draft
+- Evaluated using LangSmith (UI + SDK)
+
 ## Agent Design — 6 Nodes
 - Node 0: Detect source (human vs CloudWatch auto-generated)
 - Node 1: Extract ticket info (LLM for human, regex for CloudWatch)
