@@ -1,6 +1,5 @@
 # Support-Ticket-Triage-Agent
 Support Ticket Triage Agent — LangGraph + LangSmith Evaluation
-Gayathri Jayanthi — March 2026
 
 ---
 
