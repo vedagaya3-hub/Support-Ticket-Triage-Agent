@@ -40,7 +40,7 @@ Question: Is multi-experiment comparison coming up as a new feature? Even a simp
 
 My observation: comparision between experiments is really good, gives lot of good data.
 
-7. I considered adding a loop for this agent. But I felt it might not be a good idea to implement for this particular task.
+7. I considered adding a loop for this agent. But I decided against it - I made ticket triage as a single-pass decision, not an iterative dialogue as it would pause and wait for human clarification.
 Question - What is the recommended pattern for human-in-the-loop workflows in LangGraph where the agent needs to pause and wait for input? I saw interrupt() in the docs but wasn't sure if that was the right approach for this use case.
 
 8. No sensitive data scrubbing is happening before traces are uploaded
