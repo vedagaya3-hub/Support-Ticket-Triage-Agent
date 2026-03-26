@@ -1,5 +1,9 @@
 Below are my genuine observations while setting up, creating the codebase, running my agent, and using LangSmith as an observability and evaluation tool.
 
+Setup: 
+During setup langchain was failing because I had Python version less than python 3.9. Langchain/Langsmith will need pythpn 3.10 and higher.
+
+
 1. Which API key variable name is correct?
 When I was setting up my environment I found two different variable names across different docs and tutorials:
 
